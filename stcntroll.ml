@@ -20,5 +20,5 @@ Random.self_init ();;
 
 (* Roll for one lucky dog ONLY! *)
 for i = 0 to 0 do
-        print_int (Random.int 199); print_string "\n"
+    print_string "\027[32mThe final number is: "; print_int (Random.int 199); print_string "\n"
 done;;
